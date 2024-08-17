@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishAot>true</PublishAot>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<ApplicationIcon>bucker v3.ico</ApplicationIcon>
+		<Company>Exploitox</Company>
+		<Authors>valnoxy</Authors>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<Version>$(AssemblyVersion)</Version>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<AssemblyInformationalVersion>$(AssemblyVersion)</AssemblyInformationalVersion>
+		<IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+		<Copyright>Copyright © 2018 - 2024 valnoxy. All rights reserved.</Copyright>
+		<AssemblyTitle>OneLaunch Remover</AssemblyTitle>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Spectre.Console" Version="0.49.1" />
+	</ItemGroup>
+
+</Project>
